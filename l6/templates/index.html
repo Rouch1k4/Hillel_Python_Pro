@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="text-center py-5">
+
+        <h1>Top 5 Films IMDB</h1>
+        <p>Добірка найкращих фільмів за рейтингом IMDB.</p>
+        <a href="{{ url_for('movies_page') }}" class="btn btn-primary">Дивитись фільми</a>
+
+    </div>
+
+{% endblock %}
